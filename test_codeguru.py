@@ -9,4 +9,4 @@ with open('employee_birthday.txt', mode='r') as csv_file:
 			line_count += 1
 		print(f'\t{row["name"]} works in the {row["department"]} department, and was born in {row["birthday month"]}.')
 		line_count += 1
-	print(f'Processed {line_count} lines.')
+	print(f'Processed {line_count} lllllines baby.')
