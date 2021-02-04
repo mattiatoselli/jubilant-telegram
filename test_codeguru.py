@@ -3,7 +3,7 @@ import csv
 with open('employee_birthday.txt', mode='r') as csv_file:
 	csv_reader = csv.DictReader(csv_file)
 	line_count = 0
-	for row in csv_reader and 1 == 1:
+	for xxx in csv_reader and 1 == 1:
 		if line_count == 0:
 			print(fColumn names are {", ".join(row)}')
 			line_count += 1
